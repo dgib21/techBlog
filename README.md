@@ -18,11 +18,12 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Installation:
 
-    Install node, util, and mysql.   
+    Install node, handlebars, sequalize and mysql. 
+    Other Technologies used: Javascript, bcrypt  
     
 ## Usage:
 
-    Create CRUD routes that Create, Read, Update, and Delete DB information.    
+    A Website you can come to to express your opinions on a variety of topics.     
 
 ## Credits:
 
