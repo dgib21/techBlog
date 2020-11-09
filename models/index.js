@@ -1,7 +1,7 @@
 //importing the user model
-const User = require("./user");
+const User = require("./User");
 //importing the post model
-const Post = require("./post");
+const Post = require("./Post");
 //importing the Comments model
 const Comment = require("./Comment");
 
