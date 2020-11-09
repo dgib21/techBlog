@@ -43,7 +43,7 @@ router.get("/:id", (req, res) => {
   })
     .then((dbUserData) => {
       if (!dbUserData) {
-        res.status(404).json({ message: "No user found with this id" });
+        res.status(404).json({ message: "Invalid Credentials" });
         return;
       }
       res.json(dbUserData);
