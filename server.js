@@ -14,9 +14,9 @@ const hbs = exphbs.create({helpers}); //helpers
 //allows us to use express-session and then link to sequelize store (for cookies)
 // session connection to sequelize database
 const session = require("express-session");
+const PORT = process.env.PORT || 3001;
 
 const app = express();
-const PORT = process.env.PORT || 3001;
 
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
